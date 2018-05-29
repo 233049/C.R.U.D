@@ -1,0 +1,42 @@
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+body{
+     background: linear-gradient(to top, rgba(255,255,0,0), rgba(255,255,0,1))
+     }
+td {
+    padding: 10px;
+}
+body{
+	font-family: "Marker Felt", "Comic Sans MS", fantasy;
+	color: #003366;
+}
+
+h2 {
+	color: #111111;
+}
+
+th{
+    padding: 15px;
+    color: #FF0000;
+    
+}
+
+input[type=text] {
+    padding: 0;
+    height: 20px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 14px;
+}

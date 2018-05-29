@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='styles.css'>
+        <title>"CRUD Project"</title>
+    </head>
+    <body style="background-color:#00ffff;">
+        <center>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Xbox_one_logo.svg" width = "400px" height = "235px" >
+        </center>
+        <br>
+        <br>
+        <center>
+            <form method = 'post' action = 'Create.php'>
+                <input type= "text" name="Game" placeholder="Game">
+                <select id='select' name='Cost'>
+                    <option value="$0-9.99" >$0-9.99</option>
+                    <option value="$10-19.99" >$10-19.99</option>
+                    <option value="$20-29.99" >$20-29.99</option>
+                    <option value="$30-39.99" >$30-39.99</option>
+                    <option value="$40-49.99" >$40-49.99</option>
+                    <option value=">50" >>50</option>
+               </select>
+                <input type= "text" name="Rating" placeholder="Rating">
+                <input type= "text" name="Genre" placeholder="Genre">
+            <p></p>
+            <input type = 'submit' Value = 'Submit'>
+            </form>
+            <form action= 'Read.php' method = 'post'>
+                <select id='select' name='Costn'>
+                    <option value="$0-9.99" >$0-9.99</option>
+                    <option value="$10-19.99" >$10-19.99</option>
+                    <option value="$20-29.99" >$20-29.99</option>
+                    <option value="$30-39.99" >$30-39.99</option>
+                    <option value="$40-49.99" >$40-49.99</option>
+                    <option value=">50" >>50</option>
+               </select>
+                   <p></p>
+               <input name = 'read'   type = 'submit' value = 'Find Info'>
+               </form>
+        </center>
+    </body>
+</html>
